@@ -3,11 +3,13 @@
     <input type="text" v-model="url" />
     <p>{{url}}</p>
     <Url :input="url"></Url>
+    <Test></Test>
   </div>
 </template>
 
 <script>
 import Url from './components/Url';
+import Test from './components/Test';
 
 export default {
   name: 'app',
@@ -18,6 +20,7 @@ export default {
   },
   components: {
     Url,
+    Test,
   },
 };
 </script>
