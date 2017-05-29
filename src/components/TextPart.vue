@@ -1,5 +1,5 @@
 <template>
-<span class="TextPart">{{text}}</span>
+<span class="TextPart"><slot></slot></span>
 </template>
 <script>
 export default {
